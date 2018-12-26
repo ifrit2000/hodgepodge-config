@@ -1,2 +1,4 @@
 mysql:
   database: service_cipher
+redis:
+  database: 1
