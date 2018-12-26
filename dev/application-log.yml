@@ -1,0 +1,8 @@
+logging:
+  config: classpath:config/logback-spring.xml
+  path: /tmp/log
+
+spring:
+  output:
+    ansi:
+      enabled: always
