@@ -1,0 +1,4 @@
+mysql:
+  database: service_auth
+redis:
+  database: 0
