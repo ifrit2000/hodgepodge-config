@@ -9,6 +9,8 @@ spring:
         healthCheckInterval: 15s
         instanceId: ${spring.application.name}:${random.value}
         query-passing: true
-
+        prefer-ip-address: true
+        health-check-critical-timeout: 30s
+        health-check-timeout: 10s
 
 
