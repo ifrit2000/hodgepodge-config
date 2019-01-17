@@ -1,0 +1,4 @@
+mysql:
+  database: t66y
+redis:
+  database: 3
