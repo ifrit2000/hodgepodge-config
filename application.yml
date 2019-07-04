@@ -9,4 +9,4 @@ spring:
           lower-case-service-id: true
 
 test:
-  tt: ffff
+  tt: aaaaaa
