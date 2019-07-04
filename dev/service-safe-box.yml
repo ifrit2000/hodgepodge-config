@@ -1,0 +1,4 @@
+mysql:
+  database: service_safe_box
+redis:
+  database: 2
