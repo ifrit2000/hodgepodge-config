@@ -1,3 +1,12 @@
 spring:
-  jackson:
-    default-property-inclusion: non_null
+  cloud:
+    zookeeper:
+      connect-string: 172.28.0.21:2181,172.28.0.22:2181,172.28.0.23:2181
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+
+test:
+  tt: ffff
