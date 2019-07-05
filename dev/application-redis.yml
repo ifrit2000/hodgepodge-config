@@ -1,28 +1,10 @@
-#spring:
-#  redis:
-#    host: 172.28.0.2
-#    port: 6379
-#    database: ${redis.database}
-#    jedis:
-#      pool:
-#        max-active: 8
-#        max-wait: -1ms
-#        max-idle: 8
-#        min-idle: 0
-#    timeout: 10000ms
 spring:
   redis:
-    cache:
+    cluster:
       nodes:
-        -192.168.159.129:7001
-        -192.168.159.129:7002
-        -192.168.159.129:7003
-        -192.168.159.129:7004
-        -192.168.159.129:7005
-        -192.168.159.129:7006
-#      host: localhost:6379
-#      password:
-      maxIdle:
-      minIdle:
-      maxTotal:
-      maxWaitMillis: 5000
+        - 172.28.0.31:6379
+        - 172.28.0.32:6379
+        - 172.28.0.33:6379
+        - 172.28.0.34:6379
+        - 172.28.0.35:6379
+        - 172.28.0.36:6379
