@@ -1,13 +1,13 @@
 spring:
   cloud:
     consul:
-      host: 172.28.0.3
+      host: 172.28.0.41
       port: 8500
       discovery:
         tags: version=0.0.1,author=cd871127
         healthCheckPath: /actuator/health
         healthCheckInterval: 15s
-        instanceId: ${spring.application.name}:${random.value}
+        instanceId: ${spring.application.name}:${spring.cloud.client.ip-address}
         query-passing: true
         prefer-ip-address: true
         health-check-critical-timeout: 30s
