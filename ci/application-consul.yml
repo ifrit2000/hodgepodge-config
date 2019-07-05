@@ -12,6 +12,3 @@ spring:
         prefer-ip-address: true
         health-check-critical-timeout: 30s
         health-check-timeout: 10s
-
-
-
