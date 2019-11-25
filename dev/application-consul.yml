@@ -10,6 +10,6 @@ spring:
         instanceId: ${spring.application.name}:${spring.cloud.client.ip-address}
         query-passing: true
         prefer-ip-address: true
-        health-check-critical-timeout: 30s
-        health-check-timeout: 10s
+        health-check-critical-timeout: 10s
+        health-check-timeout: 5s
         deregister: true
