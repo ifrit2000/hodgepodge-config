@@ -1,0 +1,10 @@
+management:
+  endpoint:
+    refresh:
+      enabled: true
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
