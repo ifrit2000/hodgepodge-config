@@ -1,7 +1,7 @@
 spring:
   cloud:
     consul:
-      host: 172.28.0.41
+      host: consul.hodgepodge.com
       port: 8500
       discovery:
         tags: version=0.0.1,author=cd871127
