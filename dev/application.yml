@@ -1,6 +1,8 @@
 spring:
   jackson:
     default-property-inclusion: non_null
+  main:
+    allow-bean-definition-overriding: true
 
 management:
   endpoint:
