@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 123456
-    username: accountwrite
-    url: jdbc:mysql://172.28.0.11:3306/${mysql.database}?useUnicode=true&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    password: cd123321
+    username: cdistc
+    url: jdbc:mysql://mysql.hodgepodge.com:3306/hodgepodge?useUnicode=true&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC&allowPublicKeyRetrieval=true
 #  characterEncoding=utf8mb4&
 mybatis:
   configuration:
